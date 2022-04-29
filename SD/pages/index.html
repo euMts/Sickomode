@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta name='viewport' content='width=device-width'>
+    <title>CaptivePortal</title>
+</head>
+<body>
+    <h1>Hello!</h1><p>This is a captive portal example</p>
+    <form action='/login' method='POST'>
+        <input type='text' name='username'><br>
+        <input type='text' name='password'><br>
+        <input type='hidden' name='date' id='date'>
+        <input type='submit' value='Login' onclick="getTime()">
+    </form>
+    <script>
+        function getTime() {
+            return document.getElementById('date').value = new Date().toLocaleString();
+        }
+    </script>
+</body>
+</html>
