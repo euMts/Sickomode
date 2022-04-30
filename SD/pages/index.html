@@ -4,14 +4,66 @@
     <meta name='viewport' content='width=device-width'>
     <title>CaptivePortal</title>
 </head>
+<style>
+    body {
+        background-color: hsl(0, 0%, 5%);
+        font-family: sans-serif;
+    }
+    h1, h3, h4 {
+        color: hsl(0, 0%, 95%);
+        margin:10px;
+        font-weight: 400;
+    }
+    .myDiv {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-flow: column;
+        margin-top: 10vh;
+    }
+    label {
+    margin-bottom: 10px;
+    }
+    input {
+    background-color: hsl(0, 0%, 95%);
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: none;
+    }
+    .button{
+        border-radius: 8px;
+        background-color: hsl(0, 0%, 70%);
+        color: #000;
+        font-size: 20px;
+        font-weight: 600;
+        padding: 10px 20px;
+        transition-duration: 0.4s;
+        border: none;
+    }
+    .button:hover {
+        background-color: hsl(0, 0%, 100%);
+    }
+</style>
 <body>
-    <h1>Hello!</h1><p>This is a captive portal example</p>
-    <form action='/login' method='POST'>
-        <input type='text' name='username'><br>
-        <input type='text' name='password'><br>
-        <input type='hidden' name='date' id='date'>
-        <input type='submit' value='Login' onclick="getTime()">
-    </form>
+    <div class='myDiv'>
+        <h1 style='font-size: 50px'>Hello</h1>
+        <h4 style='font-size: 30px'>This is a captive portal example.</h4>
+        <h4 style='color:hsl(0, 0%, 100%); font-size: 18px;'>Your information will be sent to the owner of this page.</h4><br>
+        <form action='/login' method='POST'>
+            <label>
+                <h3 style='font-size: 20px'>Username</h3>
+                <input type='text' name='username'><br>
+            </label>
+            <label>
+                <h3 style='font-size: 20px'>Password</h3>
+                <input type='password' name='password'><br>
+            </label>
+            <input type='hidden' name='date' id='date'><br>
+            <input type='submit' value='Submit' onclick='getTime()' class='button'>
+        </form>
+    </div>
     <script>
         function getTime() {
             return document.getElementById('date').value = new Date().toLocaleString();
