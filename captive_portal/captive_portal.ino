@@ -6,6 +6,16 @@
 #include <SD.h>
 #include <Dictionary.h>
 
+/* 
+Made by Matheus Eduardo
+MIT License
+READ THE DOCS!!!
+https://github.com/euMts/Sickomode
+
+Last update: 01/05/2022
+Version: 1.0
+*/
+
 const byte DNS_PORT = 53;
 IPAddress apIP(8, 8, 8, 8);
 DNSServer dnsServer;
