@@ -75,7 +75,7 @@ git clone https://github.com/euMts/Sickomode
 ```
 Formate o Cartão SD em **FAT32** e mova todo o conteúdo da **[pasta SD](SD)** para ele.<br>
 
-Agora, no seu Cartão SD, mova sua **[página html personalizada](https://github.com/euMts/Sickomode#-html-personalizado)** para a pasta **[pages](SD/pages)**.<br>Abra **[config.json](SD/config.json)** e mude o valor de **`ssid`** e **`page`**.<br>
+Agora, no seu Cartão SD, mova sua **[página html personalizada](https://github.com/euMts/Sickomode/blob/main/README_ptBR.md#-html-personalizado)** para a pasta **[pages](SD/pages)**.<br>Abra **[config.json](SD/config.json)** e mude o valor de **`ssid`** e **`page`**.<br>
 Remova o Cartão SD com segurança e coloque-o no Módulo **antes** de ligar a placa.<br>
 
 Abra o arquivo **[captive_portal.ino](captive_portal/captive_portal.ino)** com a **[Arduino IDE](https://www.arduino.cc/en/software)** e carregue o código para a placa.<br>
