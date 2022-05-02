@@ -73,10 +73,13 @@ Download the files with:
 git clone https://github.com/euMts/Sickomode
 ```
 Format your SD Card to **FAT32** and move the entire content of the **[SD folder](SD)** to it.<br>
+
 Now, in your SD Card, move your custom html page into the **[pages](SD/pages)** folder.<br>Open **[config.json](SD/config.json)** and change the **`ssid`** and **`page`** values.<br>
 Safely remove the SD Card from your computer and plug it into the module **before** turning the board on.<br>
 
-Open **[captive_portal.ino](captive_portal/captive_portal.ino)** with the **[Arduino IDE](https://www.arduino.cc/en/software)** and upload the code into your board.<br>Wait until load and then you're good to go! now you should see the WiFi network with the name that you previously set up on **[config.json](SD/config.json)**.<br>
+Open **[captive_portal.ino](captive_portal/captive_portal.ino)** with the **[Arduino IDE](https://www.arduino.cc/en/software)** and upload the code into your board.<br>
+
+Wait until load and then you're good to go! now you should see the WiFi network with the name that you previously set up on **[config.json](SD/config.json)**.<br>
 
 ```Obs. The code will ignore the json file in case its corrupted or malformed. The default value for the SSID is 'Captive Portal'.```<br>
 
