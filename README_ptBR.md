@@ -95,7 +95,7 @@ Os requisitos para que o arquivo html funcione são:<br>
 - Você deve substituir  **`"`** (aspas duplas) por **`'`** (aspas simples).<br>
 
 ## > Lista de Afazeres<br>
-- [ ] - Publicar o arquivo binário na [página de releases](https://github.com/euMts/Sickomode/releases).<br>
+- [x] - Publicar o arquivo binário na [página de releases](https://github.com/euMts/Sickomode/releases).<br>
 - [ ] - Construir uma página para controlar o programa a partir de qualquer dispositivo.<br>
 - [ ] - Criar uma função que controla a LED caso queira ver o que está acontecendo.<br>
 - [ ] - Fazer um servidor FTP.<br>
