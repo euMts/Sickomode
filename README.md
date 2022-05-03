@@ -94,7 +94,7 @@ The requirements for the html file to work are:<br>
 - You must replace all the **`"`** (double quotes) with **`'`** (single quote).<br>
 
 ## > To Do List<br>
-- [ ] - Publish the binary file on the [releases page](https://github.com/euMts/Sickomode/releases).<br>
+- [x] - Publish the binary file on the [releases page](https://github.com/euMts/Sickomode/releases).<br>
 - [ ] - Build a portal to control the board with any device.<br>
 - [ ] - Build a function to controll the LED in case we want to see whats goin on.<br>
 - [ ] - Make FTP server.<br>
