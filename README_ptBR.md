@@ -25,7 +25,7 @@ Aqui está um exemplo do que aconteceria caso alguém se conectasse a rede WiFi:
 ![Imgur1](https://i.imgur.com/KAyL5Cw.gif)<br>
 
 ## > Instalação<br>
-Eu fiz um **[video no youtube]()** a respeito deste projeto, sinta-se a vontade para me mandar perguntas nos comentários caso haja necessidade.<br>
+Eu vou fazer um **[video no youtube](https://www.youtube.com/channel/UCv3PAuyFwW4BMp-8e34GhpA)** a respeito deste projeto, sinta-se a vontade para me mandar perguntas nos comentários caso haja necessidade.<br>
 ### >> Hardware<br>
 Você precisará destes componentes e de uma forma de conectá-los:<br>
 - **Cartão Micro SD FAT32**<br>

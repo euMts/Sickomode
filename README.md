@@ -24,7 +24,7 @@ Here is an example of what would happen if someone connected to the network.<br>
 ![Imgur1](https://i.imgur.com/KAyL5Cw.gif)<br>
 
 ## > Installation<br>
-I made a **[youtube video]()** about this project, feel free to ask me questions in the comments if you need to.<br>
+I will make a **[youtube video](https://www.youtube.com/channel/UCv3PAuyFwW4BMp-8e34GhpA)** about this project, feel free to ask me questions in the comments if you need to.<br>
 ### >> Hardware<br>
 You will need these components and a way to connect them.<br>
 - **FAT32 Micro SD Card**<br>
